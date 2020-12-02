@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
 }
 
 .App-logo {
@@ -26,6 +28,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.seccomp {
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+  padding: 8px;
+  background-color: azure;
+  text-align: center;
+
 }
 
 @keyframes App-logo-spin {
